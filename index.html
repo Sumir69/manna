@@ -1,0 +1,190 @@
+<!-- Created by Clever Programmer -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Created by Clever Programmer */
+#demo{
+    bottom:100px;
+    justify-content:right;
+    align:right;
+    align-items:right;
+    top:100px;
+    padding-top:300px;
+}
+.bb{
+    border-style:none;
+    color:#00000000;
+    background-color:#ffffff00;
+    position:absolute  ;
+    height:59px;
+    width:60px;
+    right:60px;
+}
+/* GENERAL STYLES ONLY*/
+
+/* EDITI ZA MUHIMU TU */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(to right, #993cd7, #b42727);
+
+/* or gradient background: linear-gradient(#000 0% ,#000 50%, #000 50%, #000 100%);  */
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ALL NAV EDITS.42a8f9 */
+
+/* EDITI ZA NAVIGATION TU */
+.bc{
+    align:right;
+}
+.navigation
+
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    transition: 0.5s;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
+
+
+.menu
+{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    transition: 0.99s;
+
+}
+
+
+.menu li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+.menu li a
+{
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.9s;
+    display: inline-block;
+}
+
+
+.menu li a:hover
+{
+    color: #000;
+}
+
+
+.navigation input
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+.navigation span
+{
+    position: absolute;
+    left: 26px;
+    width: 32px;
+    height: 4px;
+    background: #666;
+    pointer-events: none;
+    transition: 0.9s;
+}
+
+
+/* rotating hamburger edits */
+
+
+.navigation input:checked ~ span
+{
+     background: #fff;
+}
+
+.navigation span:nth-child(2)
+{
+    transform: translateY(8px);
+}
+
+.navigation input:checked ~ span:nth-child(2)
+{
+    transform: translateY(0) rotate(45deg);
+}
+
+.navigation span:nth-child(3)
+{
+    transform: translateY(-8px);
+}
+
+
+.navigation input:checked ~ span:nth-child(3)
+{
+    transform: translateY(0) rotate(-45deg);
+}
+
+.navigation input:checked ~ .menu
+{
+    width: 590px;
+}
+div.bc{
+    justify-content:right;
+    align:right;
+    align-items:right;
+    top:100px;
+    padding-bottom:300px;
+}
+        </style>
+        <title>Happy Birthday Manna</title>
+    </head>
+    <div class="bc">
+        <h1>Is it 8th June?Something special?</h1>
+    </div>
+    <body>
+    
+
+<div class="navigation">﻿ 
+
+  <input type="checkbox" name="">﻿  
+     <span></span>﻿   
+       <span></span>﻿  
+         <ul class="menu">﻿
+            <li><a href="#">Happy Birthday</a>﻿</li>                     
+            <li><a href="#">Special Manna</a>﻿</li>     
+             <li><a href="#"></a>﻿</li>      
+             <li><a href="#">Manna</a>﻿</li>
+               </ul>﻿ 
+</div>    
+
+<script>
+    alert("click on the '=' sign (hamburger menu)")
+</script>
+    </body>
+</html>
